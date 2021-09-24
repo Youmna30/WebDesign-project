@@ -1,0 +1,155 @@
+.custom-padding{
+    padding: 1% 0;
+}
+.custome-height-img{
+    height: 800px;
+}
+.header span{
+    font-size: 14px;
+}
+.custom-border-left{
+    border-left: 1px solid lightgray;
+}
+@media (max-width: 991.98px) { 
+    header{
+        display: none;
+    }
+} 
+.color-blue{
+color: #0d6efd;
+}
+.custom-opacity{
+    opacity: 1;
+}
+.dropdown:hover .dropdown-menu  {
+    display: block ; 
+    border-radius: 0 !important;
+ }
+ .dropdown-menu{
+     border-top: 2px solid #0d6efd!important;
+     min-width: 14rem !important;
+ }
+ .dropdown-item{
+     padding: 0.8rem 1rem ;
+ }
+.overlay{
+    background-color: black;
+}
+.carousel-indicators [data-bs-target] {
+    width: 0.5% !important;
+    height: 1% !important;
+    opacity: 1;
+    margin: 0.7%;
+    border: 1px solid white !important;
+    
+}
+.square-btn:hover {
+   background-color: transparent;
+   border: 1px solid white !important;
+}
+.page-dropdown{
+    right: -102px;
+}
+.carousel-indicators .active {
+    background-color: transparent;
+    border: 1px solid white !important;
+}
+.carousel-caption h1{
+    font-size:3.5rem;    
+    margin-bottom: 4%;
+}
+.carousel-caption p{
+    font-size: 1.2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom:4%;
+}
+ .custom-button{
+    width: 19%;
+    border-radius: 50px;
+    padding: 1%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    margin-right: 2%;
+    
+}
+.carousel-caption button:hover{
+    background-color: #0d6efd !important;
+    border: none !important;
+}
+.carousel-caption{
+    bottom: 15rem;
+    z-index: 3;
+}
+.setting-icon{
+    top: 134px;
+    width: 20%;
+}
+.setting-icon button{
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 20px 3px #80808040;
+}
+.custom-width{
+    width: 15%;
+}
+.custom-margin-line{
+    margin-left: 85%;
+}
+.short-width{
+    width: 8%;
+    margin-bottom: 0px !important;
+    height: 2px !important;
+}
+.margin-long{
+    margin-left: 85%;
+   
+}
+.margin-short{
+    margin-left: 92%
+}
+.custom-edit{
+    margin-top:4px;
+    height: 2px !important;
+}
+.custom-learn-button{
+    width: 34%;
+    border-radius: 50px;
+    padding: 1%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1rem;
+}
+.img-abs{
+    right: 1px;
+}
+.icon-bar{
+    text-align: center;
+    align-self: center;
+    font-size: 2rem;
+}
+.text-bar{
+    border-left: 1px solid lightgray;
+    margin-bottom: 5%;
+}
+.side-bar{
+    left: 70px;
+    top: 14px;
+}
+.custom-prg-width{
+    width: 94%;
+}
+.nav-item{
+    margin-left: 25px;
+}
+.page-div{
+    min-width: 56rem !important;
+}
+.nav-link:hover, .dropdown-item:hover,.blue-hover:hover{
+    color: #0d6efd !important;
+    background-color: transparent !important;
+}
