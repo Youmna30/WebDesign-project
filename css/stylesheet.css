@@ -33,7 +33,7 @@ color: #0d6efd;
      padding: 0.8rem 1rem ;
  }
 .overlay{
-    background-color: black;
+    background-color: #000000e8;
 }
 .carousel-indicators [data-bs-target] {
     width: 0.5% !important;
@@ -152,4 +152,53 @@ color: #0d6efd;
 .nav-link:hover, .dropdown-item:hover,.blue-hover:hover{
     color: #0d6efd !important;
     background-color: transparent !important;
+}
+.custom-shadow{
+    box-shadow: 0px 5px 20px 3px #80808040;
+}
+.service-section{
+    background-image: url("../images/service-bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.custom-padding-top{
+    padding-top: 5rem;
+}
+.custom-padding-bottom{
+    padding-bottom: 3rem;
+}
+.custom-border{
+    border: 1px solid #d3d3d359; 
+}
+.card-width{
+    width: 30%;
+    height: 240px;
+    margin-bottom: 2rem;
+}
+.hover-card-layout{
+    transition: 0.2s ease-in-out;
+    top: 100%;
+}
+.hover-card:hover .hover-card-layout{
+    top:0;
+}
+.custom-bg-color-blue{
+    left:2%;
+    right: 2%;;
+    transition:0.5s ease;
+    background-color: #0d6efdcc;
+    top: 75%;
+    transform: scaleX(0);
+}
+.custom-card:hover{
+    box-shadow: 0px 2px 20px 3px #808080b0
+
+}
+.custom-card:hover .custom-bg-color-blue{
+    transform: scaleX(1);
+}
+.bg-img{
+    height: 800px;
+    background-image: url("../images/ecommerce-cover-2.jpg");
+    background-size: 100% 100%;
 }
