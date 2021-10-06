@@ -199,3 +199,34 @@ color: #0d6efd;
     background-image: url("../images/ecommerce-cover-2.jpg");
     background-size: 100% 100%;
 }
+.icon i{
+    font-size: 13px;
+    
+}
+.icon{
+    padding: 0.7rem;
+}
+.card-pargraph{
+    top:79%;
+    transition:0.5s
+
+}
+.card-pargraph hr {
+    height: 3px;
+    opacity: 1;
+}
+.image-card:hover .card-pargraph{
+    top: 52%;
+}
+.image-card img{
+    margin-bottom: 10%;
+}
+.image-card:hover .card-pargraph hr{
+    display: none;
+}
+.card-pargraph h5:hover{
+    color: #0d6efd;
+}
+.icon i:hover{
+    color: black !important;
+}
